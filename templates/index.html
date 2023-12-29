@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Staj Botu</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div id="chat-container">
+        <div class="chatbox__support">
+            <div class="chatbox__messages">
+            </div>
+            <div class="chatbox__footer">
+                <input id="message-input" type="text" placeholder="Mesaj yazın" autocomplete="off" />
+                <button class="chatbox__send--footer send__button">Gönder</button>
+            </div>
+        </div>
+    </div>
+    <script>
+         $SCRIPT_ROOT = "{{ request.script_root|tojson|safe }}";
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
