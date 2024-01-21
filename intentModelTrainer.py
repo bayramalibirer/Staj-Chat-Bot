@@ -44,7 +44,7 @@ training_data_y = np.array(training_data_y)
 
 # Model parameters
 num_epochs = 1000
-batch_size = 8
+batch_size = 32
 learning_rate = 0.001
 input_size = len(training_data_X[0])
 hidden_size = 8

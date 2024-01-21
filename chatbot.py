@@ -4,7 +4,7 @@ import torch
 from textProcessingUtils import create_bag_of_words, tokenize_sentence
 from intentClassifierModel import CustomNeuralNetwork
 
-start_chat = "Merhaba ben StajBot \n\n  Staj hakkındaki sorularına cevap verebilirim" 
+
 
 
 class ChatBot:
@@ -58,7 +58,7 @@ class ChatBot:
         confidence = probabilities[0][predicted.item()]
 
         # Default response
-        response = "Üzgünüm sorunu tam anlayamadım. Lütfen tekrar sorunuz."
+        response = "Üzgünüm sorunu tam anlayamadım.  Lütfen sorunuzu daha detaylı ve açık şekilde belirtiniz.."
 
         if confidence.item() > 0.75:
             for intent in self.intents_data['intents']:

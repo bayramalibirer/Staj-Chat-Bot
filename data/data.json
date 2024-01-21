@@ -3,126 +3,167 @@
     {
       "tag": "selamlar",
       "patterns": [
-        "Merhaba!",
-        "Selam!",
+        "Merhaba",
+        "Selam",
+        "Selamlar",
+        "Naber",
         "Merhaba! Nasılsın?",
         "Hey orda kimse var mı?",
-        "Merhabalar hoşgeldiniz",
-        "İyi Günler. Hoşgeldiniz"
+        "Merhabalar",
+        "İyi Günler"
       ],
       "responses": [
         "Selam :)",
-        "Merhaba, ziyaretiniz için teşekkür ederim",
+        "Merhaba, ziyaretiniz için teşekkür ederim. Size nasıl yardımcı olabilirim?",
         "Merhaba, size nasıl yardımcı olabilirim?",
         "Merhaba, size nasıl yardım edebilirim?"
       ]
     },
     {
-      "tag": "staj_suresi",
+      "tag": "süre_miktarı",
       "patterns": [
         "Staj süresi ne kadar",
         "Kaç gün staj yapmalıyım",
-        "Staj kaç gün sürer"
+        "Staj kaç gün sürer",
+        "Staj ne kadar sürmeli",
+        "Staj süreleri hakkında bilgi verir misin"
       ],
       "responses": [
         "Staj süresi 30 iş günüdür. Tatil ve çalışılmayan günler bu 30 güne dahil edilmez. Bu 30 günün tek seferde tamamlanması tavsiye edilir."
       ]
     },
     {
-      "tag": "is_gunu",
+      "tag": "min_is_gunu",
       "patterns": [
         "Staj süreci en az kaç gün olmalı",
-        "En az kaç gün staj yapmalıyım"
+        "Staj süreci en az kaç gün olmalıdır",
+        "En az kaç gün staj yapmalıyım",
+        "Minimum staj süresi ne",
+        "En düşük staj gün sayısı ne"
       ],
       "responses": [
         "Bir staj döneminde kesintisiz olmak koşuluyla en az 15 iş günü staj yapılabilir. Ancak mezuniyet için diğer tüm şartları sağlamış öğrenciler için en az 15 iş günü şartı aranmaz."
       ]
     },
     {
-      "tag": "zorunlu_staj_baslangic",
+      "tag": "zorunlu_baslangic",
       "patterns": [
-        "Zorunlu staja ne zaman başlayabilirim?",
-        "Zorunlu staj için ne zaman başvurabilirim?",
-        "Staja ne zaman başlayabilirim?",
-        "Zorunlu stajın başlangıç şartları nelerdir?",
+        "Zorunlu staja ne zaman başlayabilirim",
+        "Zorunlu staj için ne zaman başvurabilirim",
+        "Staja en erken ne zaman başlayabilirim",
+        "Zorunlu stajın başlangıç koşulları neler",
         "Stajı kaçıncı sınıfta yapmam gerekiyor",
-        "2. sınıfta staj yapabilir miyim"
+        "2. sınıfta staj yapabilir miyim",
+        "Kaçıncı sınıfta staj yapabilirim",
+        "Staj başvurusu için belirli bir sınıf koşulu var mı",
+        "Staj başvurusu için gereken koşulları neler",
+        "Staja kaçıncı sınıfta başlayabilirim"
       ],
       "responses": [
          "Zorunlu stajın başlayabilmesi için 4. yarıyılı tamamlama şartı aranır. Yani öğrencinin 2. sınıfı tamamlaması gerekmektedir."
       ]
     },
     {
-      "tag": "staj_tarihleri",
+      "tag": "uygun_tarihler",
       "patterns": [
-        "Hangi tarihlerde staj yapabilirim?",
-        "Staj ne zaman yapılabilir?",
-        "Staj için uygun tarihler nelerdir?",
-        "Dönem sonu sınavları dışında staj yapabilir miyim?"
+        "Hangi tarihlerde staj yapabilirim",
+        "Staj için uygun tarihler neler",
+        "Dönem sonu sınavları dışında staj yapabilir miyim?",
+        "Yaz okulu döneminde staj yapabilir miyim?",
+        "Staj tarihleriyle ilgili bilgi alabilir miyim?",
+        "Dersleri bitmeyen öğrenciler staj yapabilir mi?",
+        "Hangi dönemlerde staj yapmak mümkün?",
+        "Staj yapmak için belirli bir dönem şartı var mı?"
       ],
       "responses": [
          "Zorunlu stajı, eğitim-öğretim dönemleri ve dönem sonu sınav haftaları dışında kalan sürelerde yapılabilir. Yaz okulunda ders alan öğrenciler dersleri bitene kadar staj yapamazlar. Ancak, yarıyıl içerisinde dersi bulunmayan öğrenciler yarıyıl içerisinde de staj yapabilirler."
       ]
     },
     {
-      "tag": "staj_yaz_okulu",
+      "tag": "yaz_okulu",
       "patterns": [
         "Yaz okulu varken staj yapabilir miyim?",
-        "Yaz okulunda staj yapmanın kuralları nelerdir?",
+        "Yaz okulunda staj yapmanın kuralları neler",
         "Staj yapmak yaz okulu döneminde mümkün mü?",
-        "Dersleri devam eden öğrenciler staj yapabilir mi?"
+        "Dersleri devam eden öğrenciler staj yapabilir mi?",
+        "Yaz okulu sürecinde staj yapmanın koşulları neler",
+        "Yaz okulunda staj yapabilmek için gereken şartlar neler",
+        "Dersleri devam eden öğrenciler yaz okulunda yarı zamanlı staj yapabilirler mi?"
       ],
       "responses": [
         "Yaz okulunda ders alan öğrenciler dersleri bitene kadar staj yapamazlar."
       ]
     },
     {
-      "tag": "haftalik_staj_gun_sayisi",
+      "tag": "haftalik_gun_sayisi",
       "patterns": [
-        "Bir haftada kaç iş günü vardır?",
+        "Bir haftada kaç iş günü var",
         "Haftada kaç gün staj yapabilirim?",
         "Stajımı haftada kaç gün gerçekleştirebilirim?",
-        "Staj süresince haftalık çalışma gün sayısı nedir?"
+        "Staj süresince haftalık çalışma gün sayısı ne",
+        "Haftada kaç gün çalışmak zorundayım?",
+        "Resmi tatil günlerinde staj yapabilir miyim?"
       ],
       "responses": [
         "Bir haftadaki staj iş günü sayısı 5 gündür. Ancak kurumda cumartesi günleri de çalışılıyorsa belgelendirilmesi şartıyla staj gün sayısı 6 gün olarak değerlendirilir. Kurumda pazar günleri çalışılsa bile, pazar günleri ve resmî tatil günleri staj yapılamaz."
       ]
     },
     {
-      "tag": "staj_yeri_gereksinimleri",
+      "tag": "şirket_gereksinimleri",
       "patterns": [
-        "Staj yerinin gereksinimleri nelerdir",
-        "Staj yapacağım yerde aranan şartlar nelerdir?",
-        "Staj yeri seçerken nelere dikkat etmeliyim?",
-        "Bir staj yerinin uygunluğunu kim belirler?"
+        "Staj yeri şartları neler",
+        "Staj yeri gereksinimleri neler",
+        "Staj yapacağım yerde aranan şartlar neler",
+        "Staj yeri seçerken nelere dikkat etmeliyim",
+        "Bir staj yerinin uygunluğunu kim belirler",
+        "Staj yapacağım yerin özellikleri neler olmalı",
+        "Staj yerinin belirli kriterleri var mı",
+        "Hangi şartlara sahip bir staj yeri seçmeliyim",
+        "Staj yerinde aranan temel gereksinimler neler",
+        "Staj yapılacak kurumun belirli standartları var mı",
+        "Staj yerini seçerken nelere dikkat etmeliyim",
+        "İstediğim yerde staj yapabilir miyim",
+        "Nerelerde staj yapabilirim"
       ],
       "responses": [
         "Staj yapılacak yerlerin ilgili mühendislik alanında uygulama becerisi ve bilgisi kazandıracak yeterlikte ve organizasyon düzeyinde olması gerekir. Bölümün sağladığı ya da öğrencilerin bulduğu staj yerlerinin uygunluğunun belirlenmesinde Bölüm Staj Komisyonu tam yetkilidir."
       ]
     },
     {
-      "tag": "staj_yerleri",
+      "tag": "kurum_özellikleri",
       "patterns": [
         "Hangi şirketlerde staj yapabilirim?",
-        "Staj yapabileceğim yerler nelerdir?",
-        "Staj yapabileceğim şirketler nelerdir?",
-        "Staj yapabileceğim kurumlar nelerdir?",
+        "Staj yapabileceğim yerler neler?",
+        "Staj yapabileceğim şirketler neler?",
+        "Staj yapabileceğim kurumlar neler?",
         "Staj için hangi kurumları seçebilirim?",
-        "Staj yapabileceğim alanlarda hangi seçenekler var?"
+        "Staj yapabileceğim alanlarda hangi seçenekler var?",
+        "Staj yapabileceğim sektörler neler?",
+        "Staj yapmak için uygun alanlar hangileri?",
+        "Hangi sektörlerde staj fırsatları bulabilirim?",
+        "Staj yapabileceğim kurumlar sadece Türkiye'de mi?",
+        "Yurt dışında staj yapma imkanım var mı?",
+        "Staj için seçebileceğim yerlerin sınırlamaları neler?"
       ],
       "responses": [
         "Staj, bölüm staj komisyonunun uygunluğunu kabul ettiği alan ile ilgili yurt içi veya yurt dışı resmi veya özel kurumlarda yapılabilir. Yurtdışında yapılan stajlarda sağlık, seyahat, vb. sigorta bedelleri öğrencinin kendisi tarafından karşılanır. Yabancı öğrenciler hariç olmak üzere sigorta belgelerinde staj dosyalarına eklenir."
       ]
     },
     {
-      "tag": "staj_calisan_sayisi",
+      "tag": "calisan_sayisi",
       "patterns": [
-        "Staj yerinde kaç çalışan olmalıdır?",
-        "Staj yerinde en az kaç mühendis olmalıdır?",
-        "Staj yerinde mühendis sayısı kaç olmalıdır?",
-        "Staj yerinde minimum çalışan sayısı nedir?",
-        "Staj yapılacak kurumda kaç kişi çalışmalıdır?",
-        "Staj yerinin çalışan sayısı ile ilgili şartlar nelerdir?"
+        "İş yerinde kaç çalışan olmalı?",
+        "İş yerinde kaç mühendis olmalı?",
+        "Şirkette en az kaç mühendis olmalı?",
+        "İş yerinde mühendis sayısı kaç olmalı?",
+        "Şirkette minimum çalışan sayısı ne?",
+        "İş yapılacak kurumda kaç kişi çalışmalı?",
+        "İş yerinin çalışan sayısı ile ilgili şartlar neler",
+        "İş yapılacak yerde kaç çalışan olmalı?",
+        "İş yapılacak kurumda minimum çalışan sayısı kaç",
+        "En uygun staj yerinde kaç mühendis bulunmalı",
+        "İş yapılacak şirketteki çalışan sayısı neden önemli",
+        "İş yapılacak kurumdaki personel sayısı ile ilgili kriterler neler"
       ],
       "responses": [
         "Staj yapılacak kurumda çalışan sayısı en az 5 ve alanı ile ilgili en az 1 mühendis bulunmalıdır. Şartı sağlamayan staj yerlerinin kabulünün değerlendirilmesi bölüm staj komisyonu tarafından yapılarak karara bağlanır."
@@ -138,14 +179,16 @@
         "Stajım geçersiz sayılırsa ne olur?",
         "Başarısız sayılan staj için ne yapmalıyım?",
         "Stajımı geçerli kılamazsam ne olacak?",
-        "Başarısız staj durumunda ne yapmalıyım?"
+        "Başarısız staj durumunda ne yapmalıyım?",
+        "Eğer stajım reddedilirse ne gibi sonuçlarla karşılaşabilirim?",
+        "Başarısız kabul edilen bir stajın sonuçları neler olabilir?"
       ],
       "responses": [
         "İş yeri tarafından başarısız sayılan ve bölüm staj komisyonu tarafından stajı kabul edilmeyen öğrenci, stajını yenilemek zorundadır."
       ]
     },
     {
-      "tag": "calisan_staj",
+      "tag": "aktif_is_yeri",
       "patterns": [
         "Çalıştığım iş yerinde staj yapabilir miyim?",
         "Şu an çalışmakta olduğum şirkette staj yapabilir miyim?",
@@ -158,7 +201,7 @@
       ]
     },
     {
-      "tag": "staj_komisyonu_olusturma",
+      "tag": "komisyon_olusturma",
       "patterns": [
         "Staj komisyonu nasıl oluşturulur?",
         "Bölüm Staj Komisyonu nasıl kurulur?",
@@ -170,69 +213,71 @@
       ]
     },
     {
-      "tag": "staj_komisyonu_is",
+      "tag": "komisyon_islev",
       "patterns": [
         "Staj komisyonu ne işe yarar?",
         "Staj komisyonu ne iş yapar?",
-        "Bölüm staj komisyonunun görevleri nelerdir?",
-        "Staj komisyonu hangi işlemleri yapar?",
-        "Staj komisyonunun fonksiyonları nelerdir?"
+        "Bölüm staj komisyonunun görevleri neler",
+        "Staj komisyonu hangi işlemleri yapar",
+        "Staj komisyonunun fonksiyonları neler"
       ],
       "responses": [
         "Bölüm staj komisyonu, staj çalışması ile ilgili ön hazırlıkları yapar, stajlarda ilgili programları ve esasları hazırlar, staj dosyası inceler, değerlendirir ve karara bağlar."
       ]
     },
     {
-      "tag": "staj_muafiyet_basvurusu",
+      "tag": "muafiyet_basvurusu",
       "patterns": [
         "Stajdan nasıl muaf olabilirim?",
         "Hangi durumlarda stajdan muafiyet başvurusu yapabilirim?",
-        "Stajdan muaf olma şartları nelerdir?",
+        "Stajdan muaf olma şartları neler?",
         "Muafiyet başvurusu nasıl yapılır?",
-        "Stajdan muaf olma koşulları nelerdir?"
+        "Stajdan muaf olma koşulları neler"
       ],
       "responses": [
         "Fakülteye ilk kez kayıt yaptıran dikey, yatay veya merkezi yatay yaparak gelen bir öğrenci, kaydolduğu ilk yarıyılın ikinci haftasının sonuna kadar bölümüne başvurarak, daha önce okumuş olduğu bir yükseköğretim kurumunda alanı ile ilgili staj yapmış ise muafiyet isteğinde bulunabilir."
       ]
     },
     {
-      "tag": "staj_muafiyet_gerekleri",
+      "tag": "muafiyet_gerekleri",
       "patterns": [
-        "Staj muafiyeti için ne gereklidir?",
-        "Muafiyet başvurusu için hangi belgeler gereklidir?",
+        "Staj muafiyeti için ne gerekli",
+        "Muafiyet başvurusu için hangi belgeler gerekli",
         "Stajdan muaf olmak için neler yapmalıyım?",
-        "Staj muafiyeti için hangi evraklar gerekli?"
+        "Staj muafiyeti için hangi evraklar lazım"
       ],
       "responses": [
         "Staj muafiyeti için başvuruda bulunan öğrenci, daha önce yapmış olduğu stajını resmi evrak ile belgelemek zorundadır."
       ]
     },
     {
-      "tag": "staj_muafiyet_sureci",
+      "tag": "muafiyet_sureci",
       "patterns": [
         "Staj muafiyet süreci nasıl ilerler?",
-        "Muafiyet başvurusu aşamaları nelerdir?",
+        "Muafiyet başvurusu aşamaları neler",
         "Muafiyet için hangi adımları takip etmeliyim?",
-        "Staj muafiyet başvuru süreci nedir?"
+        "Staj muafiyet başvuru süreci ne",
+        "Muafiyet başvurusu süreci nasıl işler"
       ],
       "responses": [
         "Bölümler, öğrencinin muafiyet başvurusunu, başvuru bitim tarihinden itibaren bir hafta içinde bölüm staj komisyonuna inceletir. Bölüm Staj Komisyonu raporu ile Bölüm İntibak ve Muafiyet Komisyonu kararını verir ve Fakülte Yönetim Kurulu’na sunar."
       ]
     },
     {
-      "tag": "staj_sureci_baslangic",
+      "tag": "surec_baslangici",
       "patterns": [
         "Staj süreci nasıl başlar?",
         "Staj yapmak için nasıl başvurabilirim?",
         "Staj yapmak için ne yapmalıyım?",
-        "Staj sürecine nasıl dahil olabilirim?"
+        "Staj sürecine nasıl dahil olabilirim?",
+        "Staj başvuru sürecinde nelere dikkat etmeliyim?"
       ],
       "responses": [
         "Öğrenci, staja başlamadan önce dönem sonu final sınavlarının sonuna kadar staj yapacağı kuruma bir dilekçe ile başvurarak staj yapabileceğine dair yazıyı alır ve staj dosyasının ilgili yerlerini doldurarak staj komisyonunun belirlediği tarihlerde başvurur."
       ]
     },
     {
-      "tag": "staj_dosya_olusturma",
+      "tag": "dosya_olusturma",
       "patterns": [
         "Her staj dönemi için yeni dosya oluşturmalı mıyım?",
         "Staj dönemlerinde aynı dosyayı kullanabilir miyim?",
@@ -246,8 +291,8 @@
     {
       "tag": "sigorta_islemleri",
       "patterns": [
-        "Sigorta işlemleri nasıl olmalıdır?",
-        "Staja başlamadan önce sigorta süreci nedir?",
+        "Sigorta işlemleri nasıl olmalı",
+        "Staja başlamadan önce sigorta süreci ne",
         "Sigorta işlemlerini nasıl tamamlarım?",
         "Staja başlamadan önce hangi sigorta işlemlerini yapmalıyım?"
       ],
@@ -260,7 +305,7 @@
       "patterns": [
         "Staj yerini nasıl değiştirebilirim?",
         "Staj yerini değiştirmek için ne yapmalıyım?",
-        "Staj yerini değiştirmenin kuralları nelerdir?",
+        "Staj yerini değiştirmenin kuralları neler",
         "Staj yerini değiştirmek mümkün mü?"
       ],
       "responses": [
@@ -270,17 +315,19 @@
     {
       "tag": "staj_aninda_yapilacaklar",
       "patterns": [
-        "Staj esnasında ne yapmalıyım?",
-        "Staj sırasında neler yapılmalı?",
-        "Staj günlerinde nelere dikkat etmeliyim?",
-        "Staj anında neler yapmalıyım?"
+        "Staj esnasında ne yapmalıyım",
+        "Staj sırasında neler yapılmalı",
+        "Staj günlerinde nelere dikkat etmeliyim",
+        "Staj anında neler yapmalıyım",
+        "Staj defterinde neler yazmalıyım",
+        "Staj raporunun içeriği ne olmalı"
       ],
       "responses": [
         "Öğrenci staj raporunu, günlük yaptığı işleri yazarak staj yaptığı kurumun birim sorumlusuna onaylatır."
       ]
     },
     {
-      "tag": "stajda_kaza_durumu",
+      "tag": "kaza_durumu",
       "patterns": [
         "Staj sırasında iş kazası olursa ne yapmalıyım?",
         "Staj esnasında kaza durumunda ne yapmalı?",
@@ -292,23 +339,23 @@
       ]
     },
     {
-      "tag": "staj_birim_sorumlusu",
+      "tag": "birim_sorumlusu",
       "patterns": [
         "Staj sürecinde birim sorumlusu ne yapmalı?",
         "Birim sorumlusu nelerle ilgilenir?",
         "Stajın birim sorumlusu ne iş yapar?",
-        "Staj sürecinde birim sorumlusunun görevleri nelerdir?"
+        "Staj sürecinde birim sorumlusunun görevleri neler"
       ],
       "responses": [
         "Birim sorumlusu; öğrencinin devamı, ilgisi, başarısı ve diğer durumlarına ilişkin bilgileri staj değerlendirme formuna işleyip imzaladıktan sonra, kapalı zarf içerisinde öğrenci ile veya taahhütlü olarak ilgili bölüm başkanlığına gönderir."
       ]
     },
     {
-      "tag": "staj_aksaklik",
+      "tag": "sürec_sorunları",
       "patterns": [
-        "Stajda aksaklık yaşarsam ne yapmalıyım?",
-        "Staj sürecinde sorun yaşarsam ne yapmalı?",
-        "Stajda problem olursa ne yapmalı?",
+        "Stajda aksaklık yaşarsam ne yapmalıyım",
+        "Staj sürecinde sorun yaşarsam ne yapmalı",
+        "Stajda problem olursa ne yapmalı",
         "Stajda aksilik olursa nasıl hareket etmeliyim?"
       ],
       "responses": [
@@ -316,12 +363,12 @@
       ]
     },
     {
-      "tag": "staj_gitmeme_durumu",
+      "tag": "gitmeme_durumu",
       "patterns": [
         "Stajıma gitmezsem ne olur?",
-        "Staj yapmazsam ne olur?",
+        "Staj yapmazsam nolur?",
         "Mazeretsiz stajıma gitmezsem ne olur?",
-        "Stajıma katılmazsam ne olur?",
+        "Stajıma katılmazsam nolur?",
         "Stajıma gitmeme durumunda ne gibi sorunlar yaşarım?"
       ],
       "responses": [
@@ -329,11 +376,11 @@
       ]
     },
     {
-      "tag": "staj_raporu_teslim",
+      "tag": "rapor_teslim",
       "patterns": [
-        "Staj raporu ne zaman teslim edilmelidir?",
+        "Staj raporu ne zaman teslim edilmeli?",
         "Staj raporunu ne zaman vermem gerekiyor?",
-        "Staj raporu teslim tarihi nedir?",
+        "Staj raporu teslim tarihi ne?",
         "Staj dönemini takip eden eğitim-öğretim döneminde staj raporunu ne zaman teslim etmeliyim?"
       ],
       "responses": [
@@ -341,10 +388,10 @@
       ]
     },
     {
-      "tag": "gec_teslim_staj_raporu",
+      "tag": "rapor_teslim_gecikmesi",
       "patterns": [
         "Staj raporunu geç teslim edersek ne olur?",
-        "Staj raporu zamanında teslim edilmezse ne olur?",
+        "Staj raporu zamanında teslim edilmezse nolur?",
         "Staj raporunu geç verirsem ne gibi sorunlarla karşılaşabilirim?",
         "Teslim tarihine geç kaldım, staj raporum kabul edilir mi?"
       ],
@@ -353,19 +400,20 @@
       ]
     },
     {
-      "tag": "staj_raporu_inceleme",
+      "tag": "rapor_inceleme",
       "patterns": [
-        "Staj raporum nasıl değerlendirilir?",
-        "Staj raporu nasıl incelenir?",
-        "Staj belgeleri nasıl değerlendirilir?",
-        "Staj sonuçları nasıl karara bağlanır?"
+        "Staj raporu nasıl değerlendirilir",
+        "Staj raporu nasıl incelenir",
+        "Staj belgeleri nasıl değerlendirilir",
+        "Staj sonuçları nasıl karara bağlanır",
+        "Staj raporunu kim inceler"
       ],
       "responses": [
         "Bölüm staj komisyonu her eğitim-öğretim döneminde staj raporlarının teslimine müteakip ilk 6 hafta içerisinde toplanarak staj belgelerini inceler, gerekli gördüğü takdirde öğrenciyi sözlü sınava alır, staj başarı durumunu karara bağlar ve staj sonuçları bölüm başkanlığınca ilan edilir."
       ]
     },
     {
-      "tag": "staj_yonetmeligi",
+      "tag": "yonetmelik",
       "patterns": [
         "Staj yönetmeliği neye göre hazırlanmıştır?",
         "Staj değerlendirmeleri hangi yönetmeliklere göre yapılır?",
@@ -376,8 +424,9 @@
       ]
     },
     {
-      "tag": "staj_itiraz",
+      "tag": "itiraz",
       "patterns": [
+        "Staj sonucuma itiraz edebilir miyim",
         "Staj sonucuma nasıl itiraz edebilirim?",
         "Staj değerlendirme sonuçlarına itiraz etmek için ne yapmalıyım?",
         "Staj puanlarına karşı nasıl bir itiraz süreci var?"
@@ -389,21 +438,24 @@
     {
       "tag": "stajyer_maas",
       "patterns": [
-        "Stajyerler için maaş var mı?",
-        "Stajdan para alacak mıyım?",
-        "Stajyerlere ödeme yapılıyor mu?",
-        "Stajyer maaşları nasıl belirlenir?"
+        "Stajyerler için maaş var mı",
+        "Stajdan para alacak mıyım",
+        "Stajyerlere ödeme yapılıyor mu",
+        "Stajyer maaşları nasıl belirlenir",
+        "Stajda ne kadar maaş alacağım"
       ],
       "responses": [
         "Stajyerlere genellikle maaş verilmez, ancak bazı şirketler giderleri karşılamak için destek sağlayabilir."
       ]
     },
     {
-      "tag": "staj_kurallari",
+      "tag": "kurallar",
       "patterns": [
-        "Staj süresince öğrenci hangi kurallara uymalıdır?",
-        "Staj yaparken dikkat edilmesi gereken kurallar nelerdir?",
-        "Öğrenciler staj sırasında nasıl davranmalıdır?"
+        "Staj süresince öğrenci hangi kurallara uymalı",
+        "Staj yaparken dikkat edilmesi gereken kurallar neler",
+        "Staj esnasında dikkat etmem gereken şartlar ne",
+        "Öğrenciler staj sırasında nasıl davranmalı",
+        "Öğrencinin stajda uyması gereken şartlar var mı"
       ],
       "responses": [
         "Öğrenciler staj yaptıkları yerin disiplinine, tüzük, yönetmelik ve her türlü mevzuatına uymak ve üniversite öğrencisi kimliğinin gerektirdiği sorumluluk bilincine uygun davranmak zorundadır. Grev, sendikal faaliyet veya işi yavaşlatma eyleminde bulunamazlar. Belirtilen hususlara uymadığı bildirilen öğrenciler hakkında öğrenci disiplin yönetmeliği hükümleri uygulanır. Öğrenciler, işletmede mesleki eğitim süresince “Yükseköğretim Kurumları Öğrenci Disiplin Yönetmeliği” nin hükümlerine uymakla yükümlüdür. Öğrenciler, işletmede mesleki eğitim süresince iş yerlerinde verecekleri tüm maddi ve manevi nitelikteki zararlardan bizzat kendileri sorumludur. İşletmede mesleki eğitim süresince öğrenci kusuru nedeniyle Fakültenin zarara uğratılması sonucunda oluşan zararlardan ve cezalardan öğrenci sorumludur. Deprem, yangın, su baskını benzeri doğal afetler, kanuni grev, lokavt, genel salgın hastalık, savaş, kısmi veya genel seferberlik ilanı ve benzeri mücbir sebep hallerinde uygulamalı eğitimlere ilişkin usul ve esaslar Yükseköğretim Kurulu tarafından belirlenir."
@@ -413,7 +465,7 @@
       "tag": "mezuniyet_tarihi",
       "patterns": [
         "Stajımı bitirdim, ne zaman mezun olabilirim?",
-        "Stajımı tamamladım, mezuniyet tarihim nedir?",
+        "Stajımı tamamladım, mezuniyet tarihim ne",
         "Stajı bitiren öğrenciler ne zaman mezun olur?"
       ],
       "responses": [
@@ -421,10 +473,10 @@
       ]
     },
     {
-      "tag": "staj_basvuru_belgeleri",
+      "tag": "basvuru_belgeleri",
       "patterns": [
         "Şirkete hangi belgeleri göndermeliyim?",
-        "Staj için hangi belgeler gereklidir?",
+        "Staj için hangi belgeler gerekli?",
         "Staj başvurusu için hangi formları doldurmam gerekiyor?",
         "Şirkete staj başvurusu yaparken hangi belgeleri hazırlamalıyım?"
       ],
@@ -433,12 +485,12 @@
       ]
     },
     {
-      "tag": "staj_belge_ulaşım",
+      "tag": "belge_ulaşım",
       "patterns": [
-        "Staj belgelerine nereden ulaşabilirim?",
+        "Staj belgelerine nerden ulaşabilirim?",
         "Staj için gerekli belgelere nereden ulaşabilirim?",
-        "Staj belgelerine nasıl ulaşabilirim?",
-        "Hangi belgeleri doldurmam gerekiyorsa nereden bulabilirim?"
+        "Staj belgelerin nasıl bulabilirim",
+        "Hangi belgeleri doldurmam gerekiyorsa nerden bulabilirim?"
       ],
       "responses": [
         "Staj için doldurmanız gereken belgelere, fakülte sitesinde yer alan öğrenci işleri bölümünün altındaki staj işlemleri kısmından ulaşabilirsiniz."
